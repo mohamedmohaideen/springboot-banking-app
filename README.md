@@ -62,30 +62,30 @@ It is designed for learning, demonstration, and practical use cases in secure ba
 
 **Method	Endpoint	Description**
 
-**POST**	/api/auth/register	Register a new user (sends confirmation email)
+**POST**	/api/auth/register --	Register a new user (sends confirmation email)
 
-**POST**	/api/auth/login	Login and generate JWT token
+**POST**	/api/auth/login	-- Login and generate JWT token
 
 ## **Customer Management**
 
 **Method	Endpoint	Description**
 
-**POST**	/api/customers	Create a new customer
+**POST**	/api/customers --	Create a new customer
 
-**GET**	/api/customers/{id}	Get customer by ID
+**GET**	/api/customers/{id} --	Get customer by ID
 
-**GET**	/api/customers	Get all customers
+**GET**	/api/customers --	Get all customers
 
 ## **Account Operations**
 
 **Method	Endpoint	Description**
 
-**POST**	/api/accounts	Create a new account for a customer
+**POST**	/api/accounts	-- Create a new account for a customer
 
-**GET**	/api/accounts/{id}	Get account details
+**GET**	/api/accounts/{id} --	Get account details
 
-**POST**	/api/accounts/deposit	Deposit money into an account
+**POST**	/api/accounts/deposit	 -- Deposit money into an account
 
-**POST**	/api/accounts/withdraw	Withdraw money (validates balance)
+**POST**	/api/accounts/withdraw --	Withdraw money (validates balance)
 
-**GET**	/api/transactions/account/{id}	Retrieve transaction history by account 
+**GET**	/api/transactions/account/{id} --	Retrieve transaction history by account 
